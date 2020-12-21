@@ -1,0 +1,72 @@
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: verdana, helvetica, sans-serif;
+  text-align: center;
+}
+
+.contenitore {
+  width: 1000px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  margin-top: 30px;
+  padding: 100px 70px 100px 70px;
+}
+
+header  img {
+  width: 250px;
+}
+
+header  div {
+  color: #39ff14;
+  font-size: 30px;
+}
+
+nav .menu {
+  background-color: #39ff14;
+  margin: 5px 0 20px 0;
+  padding: 12px;
+}
+
+main {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+section p:nth-child(3)::before{
+  content: "\21A6";
+}
+
+section  p {
+  font-size: 14px;
+  margin: 5px;
+}
+
+section div:last-child {
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 35px;
+}
+
+.Gino22 div:last-child {
+  width: 350px;
+  background-color: #f2ae72;
+}
+
+.Mike24 div:last-child {
+  width: 600px;
+  background-color: #39ff14;
+}
+
+.Fede154 div:last-child {
+  width: 150px;
+  background-color: #c83349;
+}
+
+footer{
+  font-size: 10px;
+}
